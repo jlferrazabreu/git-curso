@@ -5,6 +5,7 @@
 1. Headers
 2. Itálicos, Negritos e Negritos Itálicos
 3. Parágrafo com destaque
+4. Criação de hyperlinks
 
 ## Headers
 Sempre escrevemos headers, devemos deixar linhas em branco entre eles. Os headers são representados pelo simbolo #.
@@ -31,3 +32,8 @@ Para escrever um parágrafo com destaque, utilizamos o simbolo >.
 >Esse aqui também.
 >e assim por diante.
 Os parágrafos acima estão destacados do restante do texto escrito.
+
+## Criação de hyperlinks
+A criação de hyperlinks é feita através dos símbolos [](). Onde o conteúdo dos colchetes é o texto que será exibido e o conteúdo dos parênteces é o link a ser redirecionado.
+Ex: [Google](www.google.com)
+[Voltar ao Índece](#Indece)
