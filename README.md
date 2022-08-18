@@ -6,6 +6,7 @@
 2. Itálicos, Negritos e Negritos Itálicos
 3. Parágrafo com destaque
 4. Criação de hyperlinks
+5. Criando snippets de código
 
 ## Headers
 Sempre escrevemos headers, devemos deixar linhas em branco entre eles. Os headers são representados pelo simbolo #.
@@ -35,5 +36,26 @@ Os parágrafos acima estão destacados do restante do texto escrito.
 
 ## Criação de hyperlinks
 A criação de hyperlinks é feita através dos símbolos [](). Onde o conteúdo dos colchetes é o texto que será exibido e o conteúdo dos parênteces é o link a ser redirecionado.
-Ex: [Google](www.google.com)
+Ex: [Google](https://www.google.com.br/)
 [Voltar ao Índece](#Indece)
+
+## Criando snippets de código
+Para criar snippets de código (parte de código) basta utilizar o símbolo de crase 3 vezes junto com a linguagem do snippet.
+
+```java
+public static void main(String[] args){
+    System.out.println("Teste de snippet");
+}
+```
+
+```javascript
+    function bla(){
+        document.getElementById("teste");
+    }
+```
+```json
+{
+    "firstName": "Jorge",
+    "lastName": "Abreu",
+    "Age": 42
+}
